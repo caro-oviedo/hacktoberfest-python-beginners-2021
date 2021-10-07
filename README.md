@@ -1,29 +1,33 @@
-# hacktoberfest-python-beginners-2021
+# Hacktoberfest 2021 
 
-This is a repository for code newbies.    
-
+## Python - Beginners 
+    
+This is a repository for code newbies.
 There are 4 available issues. 
 
 
 
 # Steps
 
-Ask to be assigned to a task 
-Fork this repository 
-Make a pull request 
++ Ask to be assigned a task  
++ Fork this repository 
++ Work on the issued asigned
++ Make a pull request 
 
-Info about the program and the issues
+## The issues 
+
 1. ISSUE ONE 
- The Restaurant has a name (String), a menu (list of Entrees), an inventory
- *  (list of Food), and an amount of cash on hand, measured in pennies (int)
- Basically restaurant info, number of people served.
+The Restaurant has a name (String), type_of_restaurant (string) and number_of_people_served (int)
+The class restaurant has methods to initialize the class, to print info about the restaurant and to set and print the number of people served.
  
 2. ISSUE TWO    
- Now, its about a Coffee store where we add coffe store info, use a for loop to print the coffy types in a 
-  bullet list format.
+This class inherits from Restaurant. Initialize the class with a name and type_of_restaurant with a default value. This class has s method to print the type of cofee stored in a list. Use a for loop to print the list in a bullet list format. 
   
 3.  ISSUE 3 
-Here we, write the main part of the program
-make an instace of the class Restaurante
-and call the methods
+Write the main part of the program making an instace of the class restaurant and coffeeStore and call the method for each class. 
 
+4. ISSUE 4 
+Improve this readme file. 
+
+5. ISSUE 5 
+Write a test for each of the classes. 
