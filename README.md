@@ -1,7 +1,10 @@
 # hacktoberfest-python-beginners-2021
 
-This is a repository for code newbies. 
+This is a repository for code newbies.    
+
 There are 4 available issues. 
+
+
 
 # Steps
 
