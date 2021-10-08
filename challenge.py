@@ -41,17 +41,17 @@ class Restaurant():
 # ISSUE TWO    
   
 class CoffeeStore(      ):
-    """  Make sure this class inherits Restaurant
-     """
-
-  def __init__(self,     ): 
-    """initialize it  with an attribute called name and using a variable called
-    restaurant_type with the default value 'coffe_store'. These are received through parameters. Make sure to call the super() method and pass the right parameters"""
-
-    """
-    add an attribute called coffe_types. This will store a list with at least 3 types of coffe of your choice"""
-     
-     # write your code here 
+  """  
+  Make sure this class inherits Restaurant
+  """
+  def __init__(self,    ): 
+  """
+  initialize it  with an attribute called name and using a variable called
+  restaurant_type with the default value 'coffe_store'. These are received through parameters. Make sure to call the super() method and pass the right parameters"""
+  """
+  add an attribute called coffe_types. This will store a list with at least 3 types of coffe of your choice"""
+    
+    # write your code here 
 
 
 
