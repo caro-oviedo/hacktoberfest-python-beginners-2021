@@ -38,31 +38,31 @@ class Restaurant():
 
 
 
-#   # ISSUE TWO    
+# ISSUE TWO    
   
-# class CoffeeStore(      ):
-#     """  Make sure this class inherits Restaurant
-#     """
+class CoffeeStore(      ):
+    """  Make sure this class inherits Restaurant
+     """
 
-#   def __init__(self,     ): 
-#     """initialize it  with an attribute called name and using a variable called
-#     restaurant_type with the default value 'coffe_store'. These are received through parameters. Make sure to call the super() method and pass the right parameters"""
+  def __init__(self,     ): 
+    """initialize it  with an attribute called name and using a variable called
+    restaurant_type with the default value 'coffe_store'. These are received through parameters. Make sure to call the super() method and pass the right parameters"""
 
-#     """
-#     add an attribute called coffe_types. This will store a list with at least 3 types of coffe of your choice"""
+    """
+    add an attribute called coffe_types. This will store a list with at least 3 types of coffe of your choice"""
      
-#      # write your code here 
+     # write your code here 
 
 
 
 
-#   def print_coffe_store_info(self):
-#     """
-#     This methods prints the coffe store info 
-#     use a for loop to print the coffy types in a 
-#     bullet list format
-#     Add any other info you like 
-#     """
+  def print_coffe_store_info(self):
+    """
+    This methods prints the coffe store info 
+    use a for loop to print the coffy types in a 
+    bullet list format
+    Add any other info you like 
+    """
 
 
 
