@@ -49,7 +49,7 @@ class CoffeeStore(Restaurant):
     """
     add an attribute called coffe_types. This will store a list with at least 3 types of coffe of your choice"""
     super().__init__(name, address, type_restaurant)
-    self._coffe_types = [
+    self.coffee_types = [
       "Decaf",
       "Espresso"
       "Latte",
@@ -79,3 +79,13 @@ call
 """
 
 # write your code here  
+if __name__=='__main__':
+  restaurant=Restaurant('My Palace','Fast Food','12th Street ZYZ, ABC')
+  restaurant.set_number_people_served(200)
+  restaurant.print_restaurant_info()
+  restaurant.print_number_people_served()
+  cafe=CoffeeStore("The espresso","GFH Street, KFC","coffee_store")
+  cafe.set_number_people_served(300)
+  cafe.print_coffe_store_info()
+  cafe.print_restaurant_info()
+  cafe.print_number_people_served()
